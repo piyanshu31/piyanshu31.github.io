@@ -1,0 +1,115 @@
+baseURL = "https://piyanshu31.github.io"
+title = "Piyanshu Kale"
+languageCode = "en"
+defaultContentLanguage = "en"
+theme = "LoveIt"
+enableEmoji = true
+enableRobotsTXT = true
+
+[pagination]
+  disableAliases = false
+  pagerSize = 10
+  path = "/projects/"
+
+[params]
+
+  description = "I’m Piyanshu — I think in logic, learn like a striker, and build tools that speak louder than words."
+
+  [params.author]
+    name = "Piyanshu Vinod Kale"
+    email = "piyanshukale2005@gmail.com"
+    link = "https://github.com/piyanshu31"
+
+  [params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
+    logo = "images/football.png"
+    
+    [params.header.title]
+#  logo = "images/football.png"
+      typeit = false 
+      name = "Piyanshu Kale"
+
+  [params.footer]
+    enable = true
+    hugo = false
+    copyright = true
+    author = true
+    since = 2021
+
+  [params.section]
+    paginate = 20
+    dateFormat = "01-02"
+    rss = 10
+
+  [params.list]
+    paginate = 20 
+    dateFormat = "01-02"
+
+  [params.home]
+    rss = 10  
+    [params.home.profile]
+      enable = true
+      avatarURL = "images/piyanshu.jpg"
+      title = "Piyanshu Vinod Kale"
+      subtitle = "I’m Piyanshu — I think in logic, learn like a striker, and build tools that speak louder than words."
+      social = true
+      typeit = true
+
+    [params.home.posts]
+      enable = true
+      title = "Featured Projects"
+      section = "projects"
+      paginate = 6
+      icon = "fas fa-project-diagram"
+
+  [params.social]
+    GitHub = "https://github.com/piyanshu31"
+    LinkedIn = "https://www.linkedin.com/in/piyanshu-kale-79310b321/"
+    Telegram = "https://t.me/piyanshu31"
+    Email = "piyanshukale2005@gmail.com"
+
+  [params.page]
+    hiddenFromHomePage = false
+    showWordCount = true
+    showReadingTime = true
+    showLastMod = true
+    enableLinkToMarkdown = true
+
+  [params.app]
+    title = "Piyanshu Kale"
+    favicon = "images/favicon.ico"
+    themeColor = "#ffffff"
+
+  [params.site]
+    defaultTheme = "auto" # auto, light, or dark
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 4
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    style = "monokai"
+
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 4
+    ordered = false
+
+[minify]
+  minifyOutput = true
+
