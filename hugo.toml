@@ -82,7 +82,7 @@ enableRobotsTXT = true
     themeColor = "#ffffff"
 
   [params.site]
-    defaultTheme = "auto" # auto, light, or dark
+    defaultTheme = "dark" # auto, light, or dark
 
 [menu]
   [[menu.main]]
